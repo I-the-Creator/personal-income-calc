@@ -1,0 +1,1 @@
+pure JS income calculator
