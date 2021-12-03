@@ -5,68 +5,68 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Калькулятор</title>
+    <title>Income Calculator</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='main.css'>
 
 </head>
 <body>
     <div class="main-wrapper">
-        <h1>Мой первый калькулятор</h1>
+        <h1>Personal Income Calculator</h1>
         <div class="inputs-block">
             <div class="inputs-block-column">
-                <h6>Доход в месяц</h6>
+                <h6>Income per month</h6>
                 <div class="inputs-wrapper">
                     <input
                             type="number"
-                            placeholder="Зарплата"
+                            placeholder="Salary"
                             id="income-salary"
                             class="input"
                     >
                     <input
                             type="number"
-                            placeholder="Фриланс"
+                            placeholder="Freelance"
                             id="income-freelance"
                             class="input"
                     >
                     <input
                             type="number"
-                            placeholder="Доп. доход"
+                            placeholder="Extra income"
                             id="income-extra-1"
                             class="input"
                     >
                     <input
                             type="number"
-                            placeholder="Доп. доход"
+                            placeholder="Extra income"
                             id="income-extra-2"
                             class="input"
                     >
                 </div>
             </div>
             <div class="inputs-block-column">
-                <h6>Обязательные расходы</h6>
+                <h6>Mandatory expenses</h6>
                 <div class="inputs-wrapper">
                     <input
                             type="number"
-                            placeholder="Аренда квартиры"
+                            placeholder="Rent"
                             id="costs-flat"
                             class="input"
                     >
                     <input
                             type="number"
-                            placeholder="ЖКХ"
+                            placeholder="Utilities"
                             id="costs-house-services"
                             class="input"
                     >
                     <input
                             type="number"
-                            placeholder="Транспорт"
+                            placeholder="Transport"
                             id="costs-transport"
                             class="input"
                     >
                     <input
                             type="number"
-                            placeholder="Кредиты"
+                            placeholder="Credits"
                             id="costs-credit"
                             class="input"
                     >
@@ -74,7 +74,7 @@
             </div>
             <div class="inputs-block-column">
                 <div class="total-numb">
-                    <h6>Доступно в месяц(без копилки):</h6>
+                    <h6>Available per month(w/o savings):</h6>
                     <input
                             type="number"
                             class="total"
@@ -84,7 +84,7 @@
                     >
                 </div>
                 <div class="total-numb">
-                    <h6>Доступно в день:</h6>
+                    <h6>Available per day:</h6>
                     <input
                             type="number"
                             class="total"
@@ -93,7 +93,7 @@
                             readonly>
                 </div>
                 <div class="total-numb">
-                    <h6>Накопим за год:</h6>
+                    <h6>Savings over the year:</h6>
                     <input
                             type="number"
                             class="total"
@@ -104,15 +104,15 @@
             </div>
         </div>
         <div class="range-block">
-            <h6>Копилка (Сколько откладываем?)</h6>
+            <h6>Money Box (How much to save?)</h6>
             <div class="range-wrapper">
                 <input type="range" min="0" max="100" value="0" id="money-box-range">
             </div>
-            <div><span id="total-precents">0</span>%</div>
+            <div><span id="total-percents">0</span>%</div>
         </div>
         <div class="result-block">
             <div class="total-numb">
-                <h6>Копим:</h6>
+                <h6>Save:</h6>
                 <input
                        type="number"
                        id="accumulation"
@@ -121,7 +121,7 @@
                 >
             </div>
             <div class="total-numb">
-                <h6>Тратим:</h6>
+                <h6>Available:</h6>
                 <input type="number" id="spend" value="0" readonly>
             </div>
         </div>
